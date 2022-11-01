@@ -2,6 +2,7 @@
     --basic-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    
     --background-footer-color: #2F303A ;
 } 
 
@@ -56,7 +57,10 @@ body{
     margin-right: 50px;
 }
 
-
+.link{
+    text-decoration: none;
+    color: var(--basic-color);
+}
 .menu .link{
     display: block;
     padding-top: 32px;
