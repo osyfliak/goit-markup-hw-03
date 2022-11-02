@@ -20,6 +20,17 @@ body{
     list-style: none;
 
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 
 .menu-part{
     display: flex;
@@ -30,8 +41,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding: 0;
+    border-bottom: 1px solid #ECECEC;
 } 
-/* Стилізація header */
+
 
 .logo{
     color: var(--accent-color);
@@ -110,14 +124,7 @@ body{
     text-decoration: none;
 }
 /* Шапка */
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;  
 
-}
 
 
 .hero{
@@ -165,7 +172,6 @@ body{
 /* Особливості */
 .features {
     display: flex;
-
 }
 
 .features .item:not(:last-child){
@@ -173,7 +179,6 @@ body{
     margin-right: 30px;
 }
 .section .section-title{
-    margin-top: 94px;
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -210,7 +215,6 @@ body{
 }
 
 .work-title {
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -249,20 +253,29 @@ body{
 }
 /* Підвал */
 .footer{
-    margin-top: 94px;
     background-color: var(--background-footer-color);
     
 }
 
+
+
 .footer .logo{
     display: inline-block;
-    margin-top: 60px;
     margin-bottom: 20px;
 }
+
 .footer .logo-part{
     color: #ffffff;
     text-decoration: none;
 
+
+
+}
+
+.footer .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
 }
 .addres{
     padding-bottom: 60px;
