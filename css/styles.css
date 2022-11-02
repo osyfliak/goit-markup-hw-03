@@ -14,6 +14,25 @@ body{
     letter-spacing: 0.03em;
 }
 
+.hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .list{
     padding: 0;
     margin: 0;
@@ -26,10 +45,6 @@ body{
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-
-    padding-top: 94px;
-    padding-bottom: 94px;
-
 }
 
 .menu-part{
@@ -129,18 +144,18 @@ body{
 
 .hero{
     display: block;
-    margin-bottom: 94px;
     height: 600px;
     max-width: 1600px;
 
     margin-left: auto;
     margin-right: auto;
     background-image: url(../images/background.jpg);
+    padding: 200px 0;
 }
 .hero-title{
     margin-top: 0;
     margin-bottom: 30px;
-    padding-top: 200px;
+  
    
 
     color: #FFFFFF;
@@ -173,7 +188,9 @@ body{
 .features {
     display: flex;
 }
-
+.features-section{
+    padding-bottom: 0;
+}
 .features .item:not(:last-child){
   
     margin-right: 30px;
@@ -254,7 +271,7 @@ body{
 /* Підвал */
 .footer{
     background-color: var(--background-footer-color);
-    
+    padding: 60px 0;
 }
 
 
@@ -267,16 +284,8 @@ body{
 .footer .logo-part{
     color: #ffffff;
     text-decoration: none;
-
-
-
 }
 
-.footer .container{
-    padding-top: 60px;
-    padding-bottom: 60px;
-   
-}
 .addres{
     padding-bottom: 60px;
 }
@@ -368,12 +377,16 @@ margin-bottom: 9px;
     margin-bottom: 30px;
 }
 
+.portfolio .item{
+    border-bottom: 1px solid #EEEEEE;
+}
 .portfolio .title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     margin-top: 20px;
     margin-bottom: 4px; 
+    
 }
 
 
