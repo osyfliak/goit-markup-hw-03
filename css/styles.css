@@ -7,7 +7,7 @@
 } 
 
 body{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: var(--basic-color);
 
     font-family: 'Roboto', sans-serif;
@@ -69,13 +69,14 @@ body{
     text-decoration: none;
     font-family: 'Raleway', sans-serif; 
     line-height: 1.2;
+    margin-right: 93px;
 
 }
 .logo-part{
     /* margin-right: 93px; */
     color: #000000;
     text-decoration: none;
-    margin-right: 93px;
+    
 
 }
 .menu{
@@ -144,7 +145,6 @@ body{
 
 .hero{
     display: block;
-    height: 600px;
     max-width: 1600px;
 
     margin-left: auto;
@@ -152,6 +152,7 @@ body{
     background-image: url(../images/background.jpg);
     padding: 200px 0;
 }
+
 .hero-title{
     margin-top: 0;
     margin-bottom: 30px;
@@ -213,6 +214,9 @@ body{
     line-height: 1.14;
     text-transform: uppercase;
 
+}
+.features-section .item{
+    width: 270px;
 }
 
 .features .text{
