@@ -348,6 +348,8 @@ margin-bottom: 9px;
     background-color: #F5F4FA;
     cursor: pointer;
 
+    border: transparent;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
