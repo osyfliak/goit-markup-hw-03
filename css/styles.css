@@ -238,7 +238,6 @@ body{
 /* Чим займаємося */
 .work {
     display: flex;
-    justify-content: center;
 }
 
 .work-title {
@@ -251,7 +250,6 @@ body{
 /* Наша команда */
 .team {
     display: flex;
-    justify-content: center;
 }
 .team-background{
     background-color: #F5F4FA;
@@ -261,15 +259,18 @@ body{
 }
 .team .image{
     margin-bottom: 30px;
+    
 }
 
 
 .team .title{
+   Center
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     margin-top: 0em;
     margin-bottom: 10px;
+    text-align: center;
 }
 .team .text{
     color: var(--title-text-color);
@@ -279,6 +280,7 @@ body{
     
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 }
 /* Підвал */
 .footer{
